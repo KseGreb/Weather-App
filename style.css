@@ -1,0 +1,58 @@
+.heading, .info1, .additionalInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.additionalInfo{
+    margin: 10px;
+}
+#none{
+    display: none;
+}
+body{
+    background-image: url("rocks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+#high{
+    display: none;
+}
+.hidden{
+    background-color: rgba(248, 245, 241, 0.30);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+#temperature, #city{
+    font-size: 50px;
+    margin: 0;
+}
+#input, #btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+@media all and (max-width: 800px){
+    #temperature, #city{
+        font-size: 30px;
+    }
+    .info1{
+        font-size: 20px;
+    }
+}

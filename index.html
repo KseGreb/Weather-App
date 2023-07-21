@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <p id="none">FIND YOUR FORECAST</p>
+        <p id="none">Search for your city to get your weather</p>
+        <input id="input" spellcheck="false" type="text" placeholder="SEARCH...">
+    </div>
+    <div></div>
+    <div class="info1">
+        <p id="city">LOADING...</p>
+        <p id="date"></p>
+        <p id="temperature"></p>
+        <p id="clouds"></p>
+
+        <button id="btn">MORE INFO</button>
+        <div class="additionalInfo">
+            <div class="hidden">
+            <p id="feelsLike">FEELS LIKE</p>
+            <p id="high"></p>
+            <p id="low"></p>
+            <p id="humidity">HUMIDITY:</p>
+            <p id="pressure">PRESSURE:</p>
+            <p id="wind">WIND:</p>
+            <p id="sunrise">SUNRISE:</p>
+            <p id="sunset">SUNSET:</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
